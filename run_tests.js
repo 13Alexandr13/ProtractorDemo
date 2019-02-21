@@ -1,5 +1,4 @@
 const fse=require('fs-extra');
-const kill=require('tree-kill');
 const args= require('minimist')(process.argv.slice(2),{
 	strings:['browser', 'tagName', 'baseUrl']		
 });
